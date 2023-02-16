@@ -14,7 +14,7 @@ body {
     font-family: system-ui;
     font-size: 30px;
     background-color: #ebc9ec;
-    background-image: url("../images/banner.jpg");
+    background-image: url("./Images/banner.jpg");
     background-size: cover;
     color: #ffffff;
 }
@@ -44,6 +44,7 @@ body {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
+    max-width: 75%;
     font-family: system-ui;
     background-color: #3c0d58;
     color: #ffffff;
@@ -53,6 +54,7 @@ body {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
+    max-width: 75%;
     font-family: system-ui;
     background-color: #3c0d58;
     color: #ffffff;
@@ -62,6 +64,7 @@ body {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
+    max-width: 75%;
     font-family: system-ui;
     background-color: #3c0d58;
     color: #ffffff;
@@ -97,14 +100,19 @@ body {
 
 
 .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
     margin-right: 20px;
     padding: 20px;
     clear: both;
     float: right;
     width: 20%;
-    height: 100%;
+    max-width: 25%;
     font-family: system-ui;
     background-color: #c083a6;
+    height: 100%;
 }
 
 .location {
