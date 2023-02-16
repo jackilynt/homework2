@@ -12,7 +12,8 @@ body {
 
 /*apply a background image*/
 .header {
-    padding: 30px;
+    padding: 40px;
+    text-align: center;
     width: 100%;
     margin: 20px;
     font-family: system-ui;
@@ -48,11 +49,21 @@ body {
     margin-right: 20px;
 }
 
+.link {
+    text-align: right;
+    text-shadow: #ffffff;
+    font-weight: bolder;
+    font-family: system-ui;
+    color: #ffffff;
+
+}
+
 .about-me {
     margin-bottom: 20px;
-    padding: 50px;
+    padding: 40px;
     height: 300px;
     max-width: 100%;
+    text-align: justify;
     font-family: system-ui;
     background-color: #3c0d58;
     color: #ffffff;
@@ -60,9 +71,10 @@ body {
 
 .experience {
     margin-bottom: 20px;
-    padding: 50px;
+    padding: 40px;
     height: 300px;
     max-width: 100%;
+    text-align: justify;
     font-family: system-ui;
     background-color: #3c0d58;
     color: #ffffff;
@@ -70,9 +82,10 @@ body {
 
 .education {
     margin-bottom: 20px;
-    padding: 50px;
+    padding: 40px;
     height: 300px;
     max-width: 100%;
+    text-align: justify;
     font-family: system-ui;
     background-color: #3c0d58;
     color: #ffffff;
@@ -120,7 +133,7 @@ body {
     flex-direction: column;
     align-items: end;
     flex-wrap: wrap;
-    padding: 40px;
+    padding: 45px;
     clear: both;
     float: right;
     width: 100%;
@@ -132,16 +145,28 @@ body {
 
 .location {
     margin-bottom: 32px;
+    text-align: center;
+    font-weight: bold;
+    font-family: system-ui;
+    font-size: large;
     color: #ffffff;
 }
 
 .telephone {
     margin-bottom: 32px;
+    text-align: center;
+    font-weight: bold;
+    font-family: system-ui;
+    font-size: large;
     color: #ffffff;
 }
 
 .email {
     margin-bottom: 32px;
+    text-align: center;
+    font-weight: bold;
+    font-family: system-ui;
+    font-size: large;
     color: #ffffff;
 }
 
