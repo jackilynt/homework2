@@ -5,12 +5,16 @@
 }
 
 body {
+    display: flex;
+    flex-wrap: wrap;
     background-color: #dbc0dc;
 }
 
 /*apply a background image*/
 .header {
     padding: 30px;
+    width: 100%;
+    margin: 20px;
     font-family: system-ui;
     font-size: 30px;
     background-color: #ebc9ec;
@@ -39,12 +43,16 @@ body {
     margin-right: 25px;
 }
 
+.content {
+    width: 80%;
+    margin-right: 20px;
+}
 
 .about-me {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    max-width: 75%;
+    max-width: 100%;
     font-family: system-ui;
     background-color: #3c0d58;
     color: #ffffff;
@@ -54,7 +62,7 @@ body {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    max-width: 75%;
+    max-width: 100%;
     font-family: system-ui;
     background-color: #3c0d58;
     color: #ffffff;
@@ -64,7 +72,7 @@ body {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    max-width: 75%;
+    max-width: 100%;
     font-family: system-ui;
     background-color: #3c0d58;
     color: #ffffff;
@@ -98,18 +106,25 @@ body {
     font-size: 36px;
 }
 
+.aside {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: flex-start;
+    flex-wrap: wrap-reverse;
+    
+}
 
 .contact {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    margin-right: 20px;
-    padding: 20px;
+    align-items: end;
+    flex-wrap: wrap;
+    padding: 40px;
     clear: both;
     float: right;
-    width: 20%;
-    max-width: 25%;
+    width: 100%;
+    max-width: 100%;
     font-family: system-ui;
     background-color: #c083a6;
     height: 100%;
