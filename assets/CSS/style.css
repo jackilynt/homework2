@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+    padding: 20;
+    margin: 20;
+}
+
+body {
+    background-color: #dbc0dc;
+}
+
+/*apply a background image*/
+.header {
+    padding: 30px;
+    font-family: system-ui;
+    font-size: 30px;
+    background-color: #ebc9ec;
+    background-image: url("../images/banner.jpg");
+    background-size: cover;
+    color: #ffffff;
+}
+
+.about-me h2 {
+    display: flex;
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.experience h2 {
+    display: flex;
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.education h2 {
+    display: flex;
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+
+.about-me {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: system-ui;
+    background-color: #3c0d58;
+    color: #ffffff;
+}
+
+.experience {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: system-ui;
+    background-color: #3c0d58;
+    color: #ffffff;
+}
+
+.education {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: system-ui;
+    background-color: #3c0d58;
+    color: #ffffff;
+}
+
+
+.about-me img {
+    max-height: 200px;
+}
+
+.experience img {
+    max-height: 200px;
+}
+
+.education img {
+    max-height: 200px;
+}
+
+.about-me h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.experience h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.education h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+
+
+.contact {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: system-ui;
+    background-color: #c083a6;
+}
+
+.location {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.telephone {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.email {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.location h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.telephone h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.email h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.location img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.telephone img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.email img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: system-ui;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 20px;
+}
