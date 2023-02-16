@@ -20,19 +20,16 @@ body {
 }
 
 .about-me h2 {
-    display: flex;
     margin-bottom: 20px;
     font-size: 36px;
 }
 
 .experience h2 {
-    display: flex;
     margin-bottom: 20px;
     font-size: 36px;
 }
 
 .education h2 {
-    display: flex;
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -97,7 +94,6 @@ body {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
 
 
 .contact {
